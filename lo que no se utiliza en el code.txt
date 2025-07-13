@@ -1,0 +1,134 @@
+linea sobrante
+   <!-- Modal Popup
+	  ========================================================= -->
+     <div id="video-popup" class="popup-modal mfp-hide">
+		  <div class="fluid-video-wrapper">
+           <iframe src="http://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=faec09" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+        </div>		     
+        <a class="close-popup">Close</a>         
+	  </div> <!-- /video-popup --> 
+
+
+
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Transportador De Objetos</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">     
+
+   <!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.ico">
+
+</head>
+<body id="top">
+	<header> <!-- Encabezado de la página -->
+        <nav>
+			<a href="../index.html"> Inicio </a> <!-- Enlace a la página "index.html" con el texto "inicio" -->
+		</nav>
+		<section class="textos-header"> <!-- Sección de texto en el encabezado -->
+         <h1 >Transportador de Objetos</h1> <!-- Título principal -->
+
+
+		 <!-- <h3 id="output"></h3> Un elemento de encabezado secundario con un ID específico -->
+
+
+
+		</section>
+		<div class="Ola" style="height: 150px; overflow: hidden;" > <!-- Div del efecto de ola del header de la página -->
+			<svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+				<path d="M-37.52,-66.59 C335.50,263.98 349.20,-49.98 563.48,38.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #FFF;"></path> <!-- Un elemento SVG con un camino (path) definido -->
+			</svg>
+		</div>
+        <video id="video-background" controls autoplay loop muted>
+            <source src="imgs/dayinmylife.mp4" type="video/mp4"> <!-- Fuente de video en formato MP4 -->
+            Tu navegador no admite la reproducción de videos. <!-- Mensaje de respaldo si el navegador no admite la reproducción de videos -->
+        </video>
+		<button id="sound-toggle" class="sound-off"></button> <!-- Botón de alternar sonido con una clase "sound-off" -->
+	</header>
+
+	<main> <!-- Contenido principal de la página -->
+		<section class="contenerdor-Section"> <!-- Sección de información personal -->
+           <h1 class="titulo">Transportador </h1> <!-- Título de la sección con una clase "titulo" -->
+           <div class="subcontenerdor"> <!-- Contenedor de información personal -->
+            <img src="imgs/programacionchibi.png" alt="" class="imagen1"> <!-- Imagen con una clase y atributo alt -->
+			 <div class="contenedor-textos"> <!-- Contenedor de textos -->
+				<h3><span>0</span> Transportar Objetos? </h3> <!-- Título de la primera sección de texto -->
+				<p>Transportar objetos puede ser complicado debido a factores como el tamaño, el peso, la fragilidad, la distancia, el modo de transporte, la infraestructura, la accesibilidad, las condiciones ambientales, las regulaciones, la seguridad, el manejo, el costo, consideraciones legales y la necesidad de equipos especializados. Estos factores pueden complicar el proceso de mover objetos de un lugar a otro y requieren una planificación y ejecución cuidadosas para garantizar un transporte exitoso.</p> <!-- Párrafo de texto -->
+				<br>
+				<h3><span>1</span> En que lenguaje lo vamos a realizar y cual sera su propocito?</h3> <!-- Título de la segunda sección de texto -->
+				<p>
+					El robot transportador de objetos será diseñado con una estratégica combinación de tecnologías. La programación de su funcionalidad principal se llevará a cabo en Arduino, aprovechando su capacidad para controlar hardware en tiempo real. Por otro lado, la interfaz de usuario se desarrollará en Python, lo que permitirá a los usuarios interactuar de manera amigable con el robot.
+					La idea detrás de este robot es establecer una comunicación fluida entre Python y Arduino. Cuando un usuario emita una orden a través de la interfaz en Python, esta instrucción será transmitida a Arduino. Arduino, a su vez, interpretará la orden y ejecutará las acciones necesarias para transportar los objetos a su destino, creando así una solución versátil y eficaz para la manipulación y entrega de objetos.</p> <!-- Párrafo de texto -->
+				<h3><span>2</span> Que materiales utilizamos?</h3> <!-- Título de la primera sección de texto -->
+				<ul>
+					<li>
+						<img src="imgs/protoboard.jfif" alt="Protoboard + cables" class="component-img">
+						Protoboard + cables
+					</li>
+					<li>
+						<img src="imgs/Arduino-Uno.jpg" alt="Arduino UNO" class="component-img">
+						Arduino UNO
+					</li>
+					<li>
+						<img src="imgs/SensorUltra.jfif" alt="Sensor ultrasonidos HC-SR04" class="component-img">
+						Sensor ultrasonidos HC-SR04
+					</li>
+					<li>
+						<img src="imgs/base.jfif" alt="Base de acrílico" class="component-img">
+						Base de acrílico
+					</li>
+					<li>
+						<img src="imgs/llantas negras.jfif" alt="Llantas negras" class="component-img">
+						Llantas negras
+					</li>
+					<li>
+						<img src="imgs/Motoreductor.jfif" alt="Motoreductor amarillo" class="component-img">
+						Motoreductor amarillo
+					</li>
+					<li>
+						<img src="imgs/SoportePilas.JPG" alt="Base de 4 pilas AA" class="component-img">
+						Base de 4 pilas AA
+					</li>
+					<li>
+						<img src="imgs/Pilas.png" alt="4 pilas AA" class="component-img">
+						4 pilas AA
+					</li>
+					<li>
+						<img src="imgs/modulo-driver-l298-2.jpg" alt="L298N" class="component-img">
+						L298N
+					</li>
+					<li>
+						<img src="imgs/Servomotor.jfif" alt="Servo SG90" class="component-img">
+						Servo SG90
+					</li>
+				</ul>
+			 </div>
+		   </div>
+		</section>
+	</main>
+
+	<script src="js/modulo1.js"></script> <!-- Inclusión de un archivo JavaScript externo -->
+</body>
+</html>

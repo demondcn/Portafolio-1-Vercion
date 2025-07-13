@@ -1,0 +1,25 @@
+CREATE DATABASE CSGASQL;
+USE CSGASQL;
+
+CREATE TABLE users (
+   id INT AUTO_INCREMENT PRIMARY KEY,
+   username VARCHAR(255) NOT NULL,
+   passwordc VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE trabajadores (
+   id INT AUTO_INCREMENT PRIMARY KEY,
+   username VARCHAR(255) NOT NULL,
+   passwordc VARCHAR(255) NOT NULL,
+   cargoVARCHAR(255) NOT NULL
+   areatrabajo VARCHAR(255)NOT NULL,
+   añostrabajando INT NOT NULL
+);
+
+CREATE TABLE productos (
+   id INT AUTO_INCREMENT PRIMARY KEY,
+   nombreproducto VARCHAR(255) NOT NULL,
+   Cantidad INT NOT NULL
+);
+
+-- npm run dev

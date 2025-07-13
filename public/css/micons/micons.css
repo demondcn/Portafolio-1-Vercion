@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?wug9xo');
+  src:  url('fonts/icomoon.eot?wug9xo#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?wug9xo') format('truetype'),
+    url('fonts/icomoon.woff?wug9xo') format('woff'),
+    url('fonts/icomoon.svg?wug9xo#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-industry:before {
+  content: "\e908";
+  font-size: 100px;
+}
+.icon-bed:before {
+  content: "\e909";
+  font-size: 100px;
+}
+.icon-aid-kit:before {
+  content: "\e998";
+  font-size: 100px;
+}
+.icon-truck:before {
+  content: "\e9b0";
+  font-size: 100px;
+}
+.icon-probot:before {
+  content: "\e900";
+  color: #00b0d8;
+  font-size: 100px;
+}
+.icon-drone:before {
+  content: "\e901";
+  font-size: 100px;
+}
+.icon-c:before {
+  content: "\e902";
+  color: #a8b9cc;
+}
+.icon-html5:before {
+  content: "\e903";
+  color: #e34f26;
+}
+.icon-css3:before {
+  content: "\e904";
+  color: #1572b6;
+}
+.icon-javascript:before {
+  content: "\e905";
+  color: #f7df1e;
+}
+.icon-java:before {
+  content: "\e906";
+  color: #007396;
+}
+.icon-python:before {
+  content: "\e907";
+  color: #3776ab;
+}
+.icon-calculator:before {
+  content: "\e940";
+  font-size: 100px;
+}
+.icon-display:before {
+  content: "\e956";
+  font-size: 100px;
+}
+.icon-mobile:before {
+  content: "\e958";
+  font-size: 100px;
+}
+.icon-database:before {
+  content: "\e964";
+  font-size: 100px;
+}
+.icon-users:before {
+  content: "\e972";
+  font-size: 100px;
+}
+.icon-unlocked:before {
+  content: "\e990";
+  font-size: 100px;
+}
+.icon-indent-increase:before {
+  content: "\ea7b";
+  font-size: 100px;
+}
+.icon-embed2:before {
+  content: "\ea80";
+  font-size: 100px;
+}
+.icon-download:before {
+  content: "\e960";
+}
+.icon-upload:before {
+  content: "\e961";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-file-text:before {
+  content: "\e922";
+}
+.icon-folder-download:before {
+  content: "\e933";
+}
